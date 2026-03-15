@@ -5,8 +5,10 @@ This project implements a highly efficient, 3-layer **Cyber-Physical Intrusion D
 
 Traditional security filters often assume that attacks arrive at a constant, stationary rate, which fails to capture the dynamic, "bursty" nature of real-world cyber threats. To address this, this project utilizes **Non-Stationary Poisson Processes** and **Maximum Likelihood Estimation (MLE)** to accurately track the accelerating frequency of attacks. Built and tested using the **MetroPT-3 (Air Compressor)** dataset, the algorithm successfully distinguishes between naturally occurring mechanical faults and malicious **False Data Injection (FDI)** attacks in real-time.
 
+
 ## Project Structure
 
+```
 ISS_Project/
 │
 ├── src/
@@ -15,10 +17,12 @@ ISS_Project/
 │   ├── layer2.py
 │   └── layer3.py
 │
-├── data/              # dataset folder (not included in repo)
+├── data/                # dataset folder (not included in repository)
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ### ⚙️ Architecture & Core Layers
 

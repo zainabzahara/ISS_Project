@@ -1,0 +1,9 @@
+Metric,Value
+Total Rows Processed,982402
+True Positives (TP),1905
+False Positives (FP),46035
+False Negatives (FN),28689
+True Negatives (TN),905773
+Precision,0.0397
+Recall,0.0623
+F1-Score,0.0485

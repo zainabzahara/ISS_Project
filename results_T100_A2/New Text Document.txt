@@ -1,0 +1,552 @@
+  a_ieq = vstack([con['jac'](x, *con['args'])
+[WARNING] Latency Spike at t=153: 0.0571 seconds!
+Heartbeat: 5000 rows. Speed: 2.387 ms/loop
+Heartbeat: 10000 rows. Speed: 2.398 ms/loop
+Heartbeat: 15000 rows. Speed: 2.476 ms/loop
+
+--- [REPORT FOR CHUNK 0 TO 20000] ---
+  > Cyber Attacks Detected: 794
+  > Hardware Faults Found : 501
+  > Saving Plot to results/simulation_at_20000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 20000 rows. Speed: 2.486 ms/loop
+Heartbeat: 25000 rows. Speed: 2.472 ms/loop
+Heartbeat: 30000 rows. Speed: 2.465 ms/loop
+Heartbeat: 35000 rows. Speed: 2.467 ms/loop
+
+--- [REPORT FOR CHUNK 20000 TO 40000] ---
+  > Cyber Attacks Detected: 735
+  > Hardware Faults Found : 484
+  > Saving Plot to results/simulation_at_40000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 40000 rows. Speed: 2.468 ms/loop
+[WARNING] Latency Spike at t=44268: 168.4197 seconds!
+[WARNING] Latency Spike at t=44269: 0.1306 seconds!
+[WARNING] Latency Spike at t=44587: 0.0611 seconds!
+Heartbeat: 45000 rows. Speed: 6.242 ms/loop
+[WARNING] Latency Spike at t=47689: 0.0658 seconds!
+[WARNING] Latency Spike at t=48394: 0.1379 seconds!
+[WARNING] Latency Spike at t=48671: 0.0672 seconds!
+[WARNING] Latency Spike at t=48672: 0.1019 seconds!
+[WARNING] Latency Spike at t=48673: 0.0721 seconds!
+[WARNING] Latency Spike at t=49696: 0.0554 seconds!
+[WARNING] Latency Spike at t=49894: 0.0624 seconds!
+Heartbeat: 50000 rows. Speed: 6.224 ms/loop
+[WARNING] Latency Spike at t=53640: 2.0577 seconds!
+Heartbeat: 55000 rows. Speed: 6.276 ms/loop
+
+--- [REPORT FOR CHUNK 40000 TO 60000] ---
+  > Cyber Attacks Detected: 749
+  > Hardware Faults Found : 430
+  > Saving Plot to results/simulation_at_60000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 60000 rows. Speed: 6.142 ms/loop
+Heartbeat: 65000 rows. Speed: 5.863 ms/loop
+Heartbeat: 70000 rows. Speed: 5.627 ms/loop
+Heartbeat: 75000 rows. Speed: 5.424 ms/loop
+
+--- [REPORT FOR CHUNK 60000 TO 80000] ---
+  > Cyber Attacks Detected: 609
+  > Hardware Faults Found : 636
+  > Saving Plot to results/simulation_at_80000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 80000 rows. Speed: 5.237 ms/loop
+Heartbeat: 85000 rows. Speed: 5.087 ms/loop
+Heartbeat: 90000 rows. Speed: 4.956 ms/loop
+Heartbeat: 95000 rows. Speed: 4.914 ms/loop
+
+--- [REPORT FOR CHUNK 80000 TO 100000] ---
+  > Cyber Attacks Detected: 808
+  > Hardware Faults Found : 525
+  > Saving Plot to results/simulation_at_100000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 100000 rows. Speed: 4.870 ms/loop
+Heartbeat: 105000 rows. Speed: 4.839 ms/loop
+Heartbeat: 110000 rows. Speed: 4.807 ms/loop
+Heartbeat: 115000 rows. Speed: 4.747 ms/loop
+
+--- [REPORT FOR CHUNK 100000 TO 120000] ---
+  > Cyber Attacks Detected: 532
+  > Hardware Faults Found : 744
+  > Saving Plot to results/simulation_at_120000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 120000 rows. Speed: 4.700 ms/loop
+Heartbeat: 125000 rows. Speed: 4.679 ms/loop
+Heartbeat: 130000 rows. Speed: 4.633 ms/loop
+Heartbeat: 135000 rows. Speed: 4.609 ms/loop
+
+--- [REPORT FOR CHUNK 120000 TO 140000] ---
+  > Cyber Attacks Detected: 565
+  > Hardware Faults Found : 637
+  > Saving Plot to results/simulation_at_140000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 140000 rows. Speed: 4.577 ms/loop
+Heartbeat: 145000 rows. Speed: 4.557 ms/loop
+Heartbeat: 150000 rows. Speed: 4.530 ms/loop
+Heartbeat: 155000 rows. Speed: 4.500 ms/loop
+
+--- [REPORT FOR CHUNK 140000 TO 160000] ---
+  > Cyber Attacks Detected: 592
+  > Hardware Faults Found : 639
+  > Saving Plot to results/simulation_at_160000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 160000 rows. Speed: 4.481 ms/loop
+Heartbeat: 165000 rows. Speed: 4.455 ms/loop
+Heartbeat: 170000 rows. Speed: 4.442 ms/loop
+Heartbeat: 175000 rows. Speed: 4.439 ms/loop
+
+--- [REPORT FOR CHUNK 160000 TO 180000] ---
+  > Cyber Attacks Detected: 786
+  > Hardware Faults Found : 487
+  > Saving Plot to results/simulation_at_180000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 180000 rows. Speed: 4.414 ms/loop
+Heartbeat: 185000 rows. Speed: 4.398 ms/loop
+Heartbeat: 190000 rows. Speed: 4.381 ms/loop
+Heartbeat: 195000 rows. Speed: 4.368 ms/loop
+
+--- [REPORT FOR CHUNK 180000 TO 200000] ---
+  > Cyber Attacks Detected: 633
+  > Hardware Faults Found : 601
+  > Saving Plot to results/simulation_at_200000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 200000 rows. Speed: 4.366 ms/loop
+Heartbeat: 205000 rows. Speed: 4.363 ms/loop
+Heartbeat: 210000 rows. Speed: 4.354 ms/loop
+Heartbeat: 215000 rows. Speed: 4.348 ms/loop
+
+--- [REPORT FOR CHUNK 200000 TO 220000] ---
+  > Cyber Attacks Detected: 665
+  > Hardware Faults Found : 264
+  > Saving Plot to results/simulation_at_220000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 220000 rows. Speed: 4.354 ms/loop
+Heartbeat: 225000 rows. Speed: 4.368 ms/loop
+Heartbeat: 230000 rows. Speed: 4.368 ms/loop
+Heartbeat: 235000 rows. Speed: 4.370 ms/loop
+
+--- [REPORT FOR CHUNK 220000 TO 240000] ---
+  > Cyber Attacks Detected: 545
+  > Hardware Faults Found : 11
+  > Saving Plot to results/simulation_at_240000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 240000 rows. Speed: 4.369 ms/loop
+Heartbeat: 245000 rows. Speed: 4.374 ms/loop
+Heartbeat: 250000 rows. Speed: 4.380 ms/loop
+Heartbeat: 255000 rows. Speed: 4.383 ms/loop
+
+--- [REPORT FOR CHUNK 240000 TO 260000] ---
+  > Cyber Attacks Detected: 585
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_260000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 260000 rows. Speed: 4.389 ms/loop
+Heartbeat: 265000 rows. Speed: 4.389 ms/loop
+Heartbeat: 270000 rows. Speed: 4.391 ms/loop
+Heartbeat: 275000 rows. Speed: 4.391 ms/loop
+
+--- [REPORT FOR CHUNK 260000 TO 280000] ---
+  > Cyber Attacks Detected: 620
+  > Hardware Faults Found : 32
+  > Saving Plot to results/simulation_at_280000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 280000 rows. Speed: 4.388 ms/loop
+Heartbeat: 285000 rows. Speed: 4.390 ms/loop
+Heartbeat: 290000 rows. Speed: 4.393 ms/loop
+Heartbeat: 295000 rows. Speed: 4.396 ms/loop
+
+--- [REPORT FOR CHUNK 280000 TO 300000] ---
+  > Cyber Attacks Detected: 515
+  > Hardware Faults Found : 72
+  > Saving Plot to results/simulation_at_300000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 300000 rows. Speed: 4.397 ms/loop
+Heartbeat: 305000 rows. Speed: 4.362 ms/loop
+Heartbeat: 310000 rows. Speed: 4.328 ms/loop
+Heartbeat: 315000 rows. Speed: 4.296 ms/loop
+
+--- [REPORT FOR CHUNK 300000 TO 320000] ---
+  > Cyber Attacks Detected: 901
+  > Hardware Faults Found : 126
+  > Saving Plot to results/simulation_at_320000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 320000 rows. Speed: 4.263 ms/loop
+Heartbeat: 325000 rows. Speed: 4.235 ms/loop
+Heartbeat: 330000 rows. Speed: 4.210 ms/loop
+Heartbeat: 335000 rows. Speed: 4.184 ms/loop
+
+--- [REPORT FOR CHUNK 320000 TO 340000] ---
+  > Cyber Attacks Detected: 608
+  > Hardware Faults Found : 850
+  > Saving Plot to results/simulation_at_340000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 340000 rows. Speed: 4.175 ms/loop
+Heartbeat: 345000 rows. Speed: 4.174 ms/loop
+Heartbeat: 350000 rows. Speed: 4.167 ms/loop
+Heartbeat: 355000 rows. Speed: 4.164 ms/loop
+
+--- [REPORT FOR CHUNK 340000 TO 360000] ---
+  > Cyber Attacks Detected: 484
+  > Hardware Faults Found : 973
+  > Saving Plot to results/simulation_at_360000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 360000 rows. Speed: 4.159 ms/loop
+Heartbeat: 365000 rows. Speed: 4.161 ms/loop
+Heartbeat: 370000 rows. Speed: 4.165 ms/loop
+Heartbeat: 375000 rows. Speed: 4.166 ms/loop
+
+--- [REPORT FOR CHUNK 360000 TO 380000] ---
+  > Cyber Attacks Detected: 1278
+  > Hardware Faults Found : 131
+  > Saving Plot to results/simulation_at_380000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 380000 rows. Speed: 4.170 ms/loop
+Heartbeat: 385000 rows. Speed: 4.163 ms/loop
+Heartbeat: 390000 rows. Speed: 4.164 ms/loop
+Heartbeat: 395000 rows. Speed: 4.164 ms/loop
+[WARNING] Latency Spike at t=396359: 0.0519 seconds!
+
+--- [REPORT FOR CHUNK 380000 TO 400000] ---
+  > Cyber Attacks Detected: 650
+  > Hardware Faults Found : 578
+  > Saving Plot to results/simulation_at_400000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 400000 rows. Speed: 4.166 ms/loop
+Heartbeat: 405000 rows. Speed: 4.166 ms/loop
+Heartbeat: 410000 rows. Speed: 4.164 ms/loop
+Heartbeat: 415000 rows. Speed: 4.165 ms/loop
+
+--- [REPORT FOR CHUNK 400000 TO 420000] ---
+  > Cyber Attacks Detected: 828
+  > Hardware Faults Found : 422
+  > Saving Plot to results/simulation_at_420000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 420000 rows. Speed: 4.167 ms/loop
+Heartbeat: 425000 rows. Speed: 4.168 ms/loop
+Heartbeat: 430000 rows. Speed: 4.164 ms/loop
+Heartbeat: 435000 rows. Speed: 4.165 ms/loop
+
+--- [REPORT FOR CHUNK 420000 TO 440000] ---
+  > Cyber Attacks Detected: 338
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_440000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 440000 rows. Speed: 4.168 ms/loop
+Heartbeat: 445000 rows. Speed: 4.171 ms/loop
+Heartbeat: 450000 rows. Speed: 4.171 ms/loop
+Heartbeat: 455000 rows. Speed: 4.174 ms/loop
+
+--- [REPORT FOR CHUNK 440000 TO 460000] ---
+  > Cyber Attacks Detected: 889
+  > Hardware Faults Found : 70
+  > Saving Plot to results/simulation_at_460000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 460000 rows. Speed: 4.172 ms/loop
+Heartbeat: 465000 rows. Speed: 4.174 ms/loop
+Heartbeat: 470000 rows. Speed: 4.174 ms/loop
+Heartbeat: 475000 rows. Speed: 4.176 ms/loop
+
+--- [REPORT FOR CHUNK 460000 TO 480000] ---
+  > Cyber Attacks Detected: 1257
+  > Hardware Faults Found : 143
+  > Saving Plot to results/simulation_at_480000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 480000 rows. Speed: 4.178 ms/loop
+Heartbeat: 485000 rows. Speed: 4.180 ms/loop
+Heartbeat: 490000 rows. Speed: 4.180 ms/loop
+Heartbeat: 495000 rows. Speed: 4.178 ms/loop
+
+--- [REPORT FOR CHUNK 480000 TO 500000] ---
+  > Cyber Attacks Detected: 830
+  > Hardware Faults Found : 424
+  > Saving Plot to results/simulation_at_500000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 500000 rows. Speed: 4.174 ms/loop
+Heartbeat: 505000 rows. Speed: 4.174 ms/loop
+Heartbeat: 510000 rows. Speed: 4.169 ms/loop
+Heartbeat: 515000 rows. Speed: 4.169 ms/loop
+
+--- [REPORT FOR CHUNK 500000 TO 520000] ---
+  > Cyber Attacks Detected: 850
+  > Hardware Faults Found : 530
+  > Saving Plot to results/simulation_at_520000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 520000 rows. Speed: 4.171 ms/loop
+Heartbeat: 525000 rows. Speed: 4.172 ms/loop
+Heartbeat: 530000 rows. Speed: 4.169 ms/loop
+Heartbeat: 535000 rows. Speed: 4.166 ms/loop
+
+--- [REPORT FOR CHUNK 520000 TO 540000] ---
+  > Cyber Attacks Detected: 647
+  > Hardware Faults Found : 407
+  > Saving Plot to results/simulation_at_540000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 540000 rows. Speed: 4.164 ms/loop
+Heartbeat: 545000 rows. Speed: 4.159 ms/loop
+Heartbeat: 550000 rows. Speed: 4.157 ms/loop
+Heartbeat: 555000 rows. Speed: 4.156 ms/loop
+
+--- [REPORT FOR CHUNK 540000 TO 560000] ---
+  > Cyber Attacks Detected: 592
+  > Hardware Faults Found : 623
+  > Saving Plot to results/simulation_at_560000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 560000 rows. Speed: 4.150 ms/loop
+Heartbeat: 565000 rows. Speed: 4.143 ms/loop
+Heartbeat: 570000 rows. Speed: 4.138 ms/loop
+Heartbeat: 575000 rows. Speed: 4.133 ms/loop
+
+--- [REPORT FOR CHUNK 560000 TO 580000] ---
+  > Cyber Attacks Detected: 738
+  > Hardware Faults Found : 32
+  > Saving Plot to results/simulation_at_580000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 580000 rows. Speed: 4.130 ms/loop
+Heartbeat: 585000 rows. Speed: 4.127 ms/loop
+Heartbeat: 590000 rows. Speed: 4.123 ms/loop
+Heartbeat: 595000 rows. Speed: 4.119 ms/loop
+
+--- [REPORT FOR CHUNK 580000 TO 600000] ---
+  > Cyber Attacks Detected: 976
+  > Hardware Faults Found : 17
+  > Saving Plot to results/simulation_at_600000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 600000 rows. Speed: 4.115 ms/loop
+Heartbeat: 605000 rows. Speed: 4.111 ms/loop
+Heartbeat: 610000 rows. Speed: 4.112 ms/loop
+Heartbeat: 615000 rows. Speed: 4.111 ms/loop
+
+--- [REPORT FOR CHUNK 600000 TO 620000] ---
+  > Cyber Attacks Detected: 1265
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_620000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 620000 rows. Speed: 4.109 ms/loop
+Heartbeat: 625000 rows. Speed: 4.103 ms/loop
+Heartbeat: 630000 rows. Speed: 4.102 ms/loop
+Heartbeat: 635000 rows. Speed: 4.101 ms/loop
+
+--- [REPORT FOR CHUNK 620000 TO 640000] ---
+  > Cyber Attacks Detected: 1149
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_640000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 640000 rows. Speed: 4.101 ms/loop
+Heartbeat: 645000 rows. Speed: 4.099 ms/loop
+Heartbeat: 650000 rows. Speed: 4.097 ms/loop
+Heartbeat: 655000 rows. Speed: 4.095 ms/loop
+
+--- [REPORT FOR CHUNK 640000 TO 660000] ---
+  > Cyber Attacks Detected: 1874
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_660000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 660000 rows. Speed: 4.094 ms/loop
+Heartbeat: 665000 rows. Speed: 4.088 ms/loop
+Heartbeat: 670000 rows. Speed: 4.087 ms/loop
+Heartbeat: 675000 rows. Speed: 4.088 ms/loop
+
+--- [REPORT FOR CHUNK 660000 TO 680000] ---
+  > Cyber Attacks Detected: 1304
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_680000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 680000 rows. Speed: 4.087 ms/loop
+Heartbeat: 685000 rows. Speed: 4.081 ms/loop
+Heartbeat: 690000 rows. Speed: 4.080 ms/loop
+Heartbeat: 695000 rows. Speed: 4.079 ms/loop
+
+--- [REPORT FOR CHUNK 680000 TO 700000] ---
+  > Cyber Attacks Detected: 1380
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_700000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 700000 rows. Speed: 4.078 ms/loop
+Heartbeat: 705000 rows. Speed: 4.075 ms/loop
+Heartbeat: 710000 rows. Speed: 4.074 ms/loop
+Heartbeat: 715000 rows. Speed: 4.074 ms/loop
+
+--- [REPORT FOR CHUNK 700000 TO 720000] ---
+  > Cyber Attacks Detected: 1271
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_720000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 720000 rows. Speed: 4.074 ms/loop
+Heartbeat: 725000 rows. Speed: 4.069 ms/loop
+Heartbeat: 730000 rows. Speed: 4.068 ms/loop
+Heartbeat: 735000 rows. Speed: 4.067 ms/loop
+
+--- [REPORT FOR CHUNK 720000 TO 740000] ---
+  > Cyber Attacks Detected: 866
+  > Hardware Faults Found : 20
+  > Saving Plot to results/simulation_at_740000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 740000 rows. Speed: 4.067 ms/loop
+Heartbeat: 745000 rows. Speed: 4.064 ms/loop
+Heartbeat: 750000 rows. Speed: 4.063 ms/loop
+Heartbeat: 755000 rows. Speed: 4.062 ms/loop
+
+--- [REPORT FOR CHUNK 740000 TO 760000] ---
+  > Cyber Attacks Detected: 1440
+  > Hardware Faults Found : 5
+  > Saving Plot to results/simulation_at_760000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 760000 rows. Speed: 4.060 ms/loop
+Heartbeat: 765000 rows. Speed: 4.056 ms/loop
+Heartbeat: 770000 rows. Speed: 4.055 ms/loop
+Heartbeat: 775000 rows. Speed: 4.054 ms/loop
+
+--- [REPORT FOR CHUNK 760000 TO 780000] ---
+  > Cyber Attacks Detected: 1183
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_780000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 780000 rows. Speed: 4.053 ms/loop
+Heartbeat: 785000 rows. Speed: 4.052 ms/loop
+Heartbeat: 790000 rows. Speed: 4.052 ms/loop
+Heartbeat: 795000 rows. Speed: 4.051 ms/loop
+
+--- [REPORT FOR CHUNK 780000 TO 800000] ---
+  > Cyber Attacks Detected: 1477
+  > Hardware Faults Found : 30
+  > Saving Plot to results/simulation_at_800000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 800000 rows. Speed: 4.049 ms/loop
+Heartbeat: 805000 rows. Speed: 4.046 ms/loop
+Heartbeat: 810000 rows. Speed: 4.045 ms/loop
+Heartbeat: 815000 rows. Speed: 4.044 ms/loop
+
+--- [REPORT FOR CHUNK 800000 TO 820000] ---
+  > Cyber Attacks Detected: 1352
+  > Hardware Faults Found : 12
+  > Saving Plot to results/simulation_at_820000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 820000 rows. Speed: 4.043 ms/loop
+Heartbeat: 825000 rows. Speed: 4.039 ms/loop
+Heartbeat: 830000 rows. Speed: 4.039 ms/loop
+Heartbeat: 835000 rows. Speed: 4.038 ms/loop
+
+--- [REPORT FOR CHUNK 820000 TO 840000] ---
+  > Cyber Attacks Detected: 1342
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_840000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 840000 rows. Speed: 4.037 ms/loop
+Heartbeat: 845000 rows. Speed: 4.035 ms/loop
+Heartbeat: 850000 rows. Speed: 4.034 ms/loop
+Heartbeat: 855000 rows. Speed: 4.033 ms/loop
+
+--- [REPORT FOR CHUNK 840000 TO 860000] ---
+  > Cyber Attacks Detected: 1721
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_860000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 860000 rows. Speed: 4.032 ms/loop
+Heartbeat: 865000 rows. Speed: 4.029 ms/loop
+Heartbeat: 870000 rows. Speed: 4.028 ms/loop
+Heartbeat: 875000 rows. Speed: 4.027 ms/loop
+
+--- [REPORT FOR CHUNK 860000 TO 880000] ---
+  > Cyber Attacks Detected: 1742
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_880000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 880000 rows. Speed: 4.027 ms/loop
+Heartbeat: 885000 rows. Speed: 4.024 ms/loop
+Heartbeat: 890000 rows. Speed: 4.024 ms/loop
+Heartbeat: 895000 rows. Speed: 4.024 ms/loop
+
+--- [REPORT FOR CHUNK 880000 TO 900000] ---
+  > Cyber Attacks Detected: 1096
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_900000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 900000 rows. Speed: 4.023 ms/loop
+Heartbeat: 905000 rows. Speed: 4.020 ms/loop
+Heartbeat: 910000 rows. Speed: 4.019 ms/loop
+Heartbeat: 915000 rows. Speed: 4.019 ms/loop
+
+--- [REPORT FOR CHUNK 900000 TO 920000] ---
+  > Cyber Attacks Detected: 1342
+  > Hardware Faults Found : 31
+  > Saving Plot to results/simulation_at_920000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 920000 rows. Speed: 4.019 ms/loop
+Heartbeat: 925000 rows. Speed: 4.017 ms/loop
+Heartbeat: 930000 rows. Speed: 4.016 ms/loop
+Heartbeat: 935000 rows. Speed: 4.017 ms/loop
+
+--- [REPORT FOR CHUNK 920000 TO 940000] ---
+  > Cyber Attacks Detected: 1779
+  > Hardware Faults Found : 8
+  > Saving Plot to results/simulation_at_940000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 940000 rows. Speed: 4.016 ms/loop
+Heartbeat: 945000 rows. Speed: 4.013 ms/loop
+Heartbeat: 950000 rows. Speed: 4.012 ms/loop
+Heartbeat: 955000 rows. Speed: 4.012 ms/loop
+
+--- [REPORT FOR CHUNK 940000 TO 960000] ---
+  > Cyber Attacks Detected: 2177
+  > Hardware Faults Found : 0
+  > Saving Plot to results/simulation_at_960000.png...
+--- Memory Cleared. Latency Restored. ---
+
+Heartbeat: 960000 rows. Speed: 4.012 ms/loop
+Heartbeat: 965000 rows. Speed: 4.010 ms/loop
+Heartbeat: 970000 rows. Speed: 4.010 ms/loop
+
+Stream manually interrupted.
+
+=== FINAL PERFORMANCE FOR T=100 ===
+Precision: 0.0388
+Recall:    0.0621
+F1-Score:  0.0478
+Simulation Complete. Total Rows: 973690

@@ -36,7 +36,7 @@ class Layer1DataInjector:
     def lambda_t(self, current_time):
         """
         The dynamic intensity function lambda(t) representing the Non-Stationary attack rate.
-        We use a sine wave to simulate "bursts" of attacks (e.g., higher attack frequency 
+        I am using a sine wave to simulate "bursts" of attacks (e.g., higher attack frequency 
         during certain operational windows).
         """
         # Creates a smooth wave between baseline_rate and lambda_star

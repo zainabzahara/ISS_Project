@@ -34,7 +34,7 @@ def main():
     layer1 = Layer1DataInjector(csv_path=CSV_PATH, max_rate_lambda_star=0.05, baseline_rate=0.001)
     
     # Layer 2: Maximum Likelihood Estimation (MLE) filter
-    layer2 = Layer2StatDetector(time_window=1000, lambda_history_size=50)
+    layer2 = Layer2StatDetector(time_window=100, lambda_history_size=50)
     
     # Layer 3: Physical consistency engine (Motor vs Pressure)
     layer3 = Layer3PhysicsValidator(history_window=500)
@@ -60,11 +60,16 @@ def main():
     # This finds the "parent" folder (ISS_project) and makes a results folder there
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    results_path = os.path.join(project_root, "results")
+    results_path = os.path.join(project_root, "results_T100_A2")
     
     if not os.path.exists(results_path):
         os.makedirs(results_path)
 
+    # --- Statistical Trackers ---
+    TP = 0  # True Positives (System caught an actual attack)
+    FP = 0  # False Positives (System cried wolf on normal/hardware data)
+    FN = 0  # False Negatives (System missed a real attack)
+    TN = 0  # True Negatives (System correctly stayed quiet)
     try:
         while t < MAX_ITERATIONS:
             # -------------------------------------------------------------
@@ -87,6 +92,9 @@ def main():
             # -------------------------------------------------------------
             is_anomaly = layer2.check_statistical_alert(data_row, time_t=t)
             
+            system_alert = False # Default state
+            actual_is_attack = (data_row['Ground_Truth_Label'] == "Cyber_Attack")
+
             # -------------------------------------------------------------
             # LAYER 3: Physics-Based Consistency Engine
             # -------------------------------------------------------------
@@ -102,19 +110,32 @@ def main():
                 
                 # We count them internally instead of printing every line
                 if "CYBER ATTACK" in diagnosis:
+                    system_alert = True
                     current_chunk_cyber += 1
+                    plot_l3_alerts.append(t) # Save the time the alert happened
                 else:
+                    system_alert = False # It was a Hardware Fault
                     current_chunk_hardware += 1
-                plot_l3_alerts.append(t) # Save the time the alert happened
+                #plot_l3_alerts.append(t) # Save the time the alert happened
 
             else:
                 # If the system is operating normally, update the physical 
                 # baseline memory so the AI knows what "normal" currently looks like
                 layer3.update_baselines(data_row)
-            
+                system_alert = False
             # --- STOP TIMER ---
             end_time = time.perf_counter()
             
+            # --- Calculate TP, FP, FN, TN ---
+            if system_alert and actual_is_attack:
+                TP += 1
+            elif system_alert and not actual_is_attack:
+                FP += 1
+            elif not system_alert and actual_is_attack:
+                FN += 1
+            else:
+                TN += 1
+
             # 4. Performance Measurement
             processing_time = end_time - start_time
             total_processing_time += processing_time
@@ -189,7 +210,28 @@ def main():
 
     except KeyboardInterrupt:
         print("\nStream manually interrupted.")
+    # --- Calculate Final Metrics ---
+    precision = TP / (TP + FP) if (TP + FP) > 0 else 0
+    recall = TP / (TP + FN) if (TP + FN) > 0 else 0
+    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
+    print(f"\n=== FINAL PERFORMANCE FOR T={layer2.time_window} ===")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall:    {recall:.4f}")
+    print(f"F1-Score:  {f1_score:.4f}")
+
+    # Export to CSV
+    csv_path = os.path.join(results_path, f"summary_stats_T{layer2.time_window}.csv")
+    with open(csv_path, "w") as f:
+        f.write("Metric,Value\n")
+        f.write(f"Total Rows Processed,{t}\n")
+        f.write(f"True Positives (TP),{TP}\n")
+        f.write(f"False Positives (FP),{FP}\n")
+        f.write(f"False Negatives (FN),{FN}\n")
+        f.write(f"True Negatives (TN),{TN}\n")
+        f.write(f"Precision,{precision:.4f}\n")
+        f.write(f"Recall,{recall:.4f}\n")
+        f.write(f"F1-Score,{f1_score:.4f}\n")
     print(f"Simulation Complete. Total Rows: {t}")
 
 if __name__ == "__main__":

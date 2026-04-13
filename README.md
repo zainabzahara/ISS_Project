@@ -20,8 +20,9 @@ ISS_Project/
 ├── data/                # dataset folder (not included in repository)
 │
 ├── Results/
-│   ├── Figure_1.png
-│   └── Figure_2.png
+│   ├──results_T1000_A2
+│   ├──results_T500_A2
+│   ├──results_T100_A2
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -49,8 +50,8 @@ The system successfully integrates three complementary mechanisms:
 
 Together, these layers enable high-accuracy real-time intrusion detection in cyber-physical systems.
 
-Results/Figure_1.png
-Results/Figure_2.png
+
+Note: To maintain repository performance and adhere to storage limits, only the selective images and statistical CSV summaries are included.
 
 ### Tech Stack
 *   **Python 3.x**
@@ -83,8 +84,7 @@ The dataset is not included due to GitHub file size limits.
 
 Download the **MetroPT Air Compressor dataset** and place it inside:
 
-data/
-
+data/ 'https://archive.ics.uci.edu/dataset/791/metropt+3+dataset'
 
 ## Running the Project
 
